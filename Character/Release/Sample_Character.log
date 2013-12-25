@@ -1,0 +1,25 @@
+﻿已經開始建置於 2013/12/23 下午 09:26:59。
+     1>節點 2 (build 目標) 上的專案 "C:\SampleAppSinbad-FYP\Character\Sample_Character.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "Release\Sample_Character.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Common\include /I. /Ic:\OgreSDK\boost /Ic:\OgreSDK\include\OGRE /Ic:\OgreSDK\include /Ic:\OgreSDK\include\OGRE\PlugIns\PCZSceneManager /Ic:\OgreSDK\include\OGRE\PlugIns\OctreeZone /Ic:\OgreSDK\include\OIS /Ic:\OgreSDK\include\OGRE\RTShaderSystem /Iinclude /I"C:\Program Files (x86)\OpenNI\Include" /I"C:\Program Files (x86)\PrimeSense\NITE\Include" /IC:\SampleAppSinbad\Character\src /I"C:\buggyswires\nxogre-buggyswires\sdk" /I"C:\buggyswires\critter-buggyswires\sdk" /Zi /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D BOOST_ALL_NO_LIB /D USE_RTSHADER_SYSTEM /D "CMAKE_INTDIR=\"Release\"" /D Sample_Character_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\CharacterSample.cpp  /Zm1000 /fp:fast 
+     1>cl : 命令列 warning D9025: 覆寫 '/fp:precise'，以 '/fp:fast'
+         CharacterSample.cpp
+     1>c:\sampleappsinbad-fyp\character\src\SkeletonPoseDetector.h(156): warning C4482: 使用了非標準的擴充: 在限定名稱中使用列舉 'XnSkeletonJoint'
+     1>c:\sampleappsinbad-fyp\character\src\SkeletonPoseDetector.h(157): warning C4482: 使用了非標準的擴充: 在限定名稱中使用列舉 'XnSkeletonJoint'
+     1>c:\sampleappsinbad-fyp\character\include\charactersample.h(220): warning C4700: 使用了未初始化的區域變數 'index'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\Sample_Character.dll" /VERSION:"0.0" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\OpenNI\Lib" /LIBPATH:"C:\Program Files (x86)\PrimeSense\NITE\Lib" /LIBPATH:c:\OgreSDK\lib\release /LIBPATH:c:\OgreSDK\boost\lib /LIBPATH:"C:\buggyswires\critter-buggyswires\sdk" /LIBPATH:"C:\buggyswires\nxogre-buggyswires\sdk" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib OgreMain.lib "libboost_thread-vc100-mt-1_42.lib" "libboost_date_time-vc100-mt-1_42.lib" OgreRTShaderSystem.lib OIS.lib XnVNITE_1_3_1.lib openNI.lib NxOgre.lib CritterStatic.lib /MANIFEST /ManifestFile:"Release\Sample_Character.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\bin\Release\Sample_Character.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\Sample_Character.lib" /MACHINE:X86 /DLL Release\CharacterSample.obj  /STACK:10000000 /machine:I386 
+            正在建立程式庫 ..\bin\Sample_Character.lib 和物件 ..\bin\Sample_Character.exp
+         Sample_Character.vcxproj -> C:\SampleAppSinbad-FYP\Character\..\bin\Sample_Character.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\bin\Sample_Character.dll;#2" /manifest Release\Sample_Character.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Release\Sample_Character.unsuccessfulbuild"。
+         正在變更時間戳記 "Release\Sample_Character.lastbuildstate"。
+     1>專案 "C:\SampleAppSinbad-FYP\Character\Sample_Character.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:29.76

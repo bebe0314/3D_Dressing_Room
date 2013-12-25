@@ -1,0 +1,14 @@
+﻿已經開始建置於 2013/11/1 下午 01:01:22。
+     1>節點 3 (build 目標) 上的專案 "C:\SampleAppSinbad\Character\Sample_Character.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "Debug\Sample_Character.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../Common/Include /I. /Ic:\OgreSDK\boost_1_42 /Ic:\OgreSDK\include\OGRE /Ic:\OgreSDK\include /Ic:\OgreSDK\include\OGRE\PlugIns\PCZSceneManager /Ic:\OgreSDK\include\OGRE\PlugIns\OctreeZone /Ic:\OgreSDK\include\OIS /I..\Common\include /Ic:\OgreSDK\include\OGRE\RTShaderSystem /Iinclude /I"C:\Program Files (x86)\OpenNI\Include" /I"C:\Program Files (x86)\PrimeSense\NITE\Include" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D BOOST_ALL_NO_LIB /D USE_RTSHADER_SYSTEM /D "CMAKE_INTDIR=\"Debug\"" /D Sample_Character_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\CharacterSample.cpp  /Zm1000 /fp:fast 
+     1>cl : 命令列 warning D9025: 覆寫 '/fp:precise'，以 '/fp:fast'
+         CharacterSample.cpp
+     1>c:\ogresdk\include\ogre\threading\OgreThreadHeadersBoost.h(29): fatal error C1083: 無法開啟包含檔案: 'boost/thread/tss.hpp': No such file or directory
+     1>專案 "C:\SampleAppSinbad\Character\Sample_Character.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:02.77
