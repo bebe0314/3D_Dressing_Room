@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample_Character", "Character\Sample_Character.vcxproj", "{85EC0211-B9EA-48A2-A883-4F7724A27AB7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleBrowser", "Browser\SampleBrowser.vcxproj", "{42086EB7-6CED-40FD-AB74-AC8EF7771135}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85EC0211-B9EA-48A2-A883-4F7724A27AB7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85EC0211-B9EA-48A2-A883-4F7724A27AB7}.Debug|Win32.Build.0 = Debug|Win32
+		{85EC0211-B9EA-48A2-A883-4F7724A27AB7}.Release|Win32.ActiveCfg = Release|Win32
+		{85EC0211-B9EA-48A2-A883-4F7724A27AB7}.Release|Win32.Build.0 = Release|Win32
+		{42086EB7-6CED-40FD-AB74-AC8EF7771135}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42086EB7-6CED-40FD-AB74-AC8EF7771135}.Debug|Win32.Build.0 = Debug|Win32
+		{42086EB7-6CED-40FD-AB74-AC8EF7771135}.Release|Win32.ActiveCfg = Release|Win32
+		{42086EB7-6CED-40FD-AB74-AC8EF7771135}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

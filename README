@@ -1,0 +1,38 @@
+Sinbad OpenNI Sample Application v1.0
+-------------------------------------
+
+Release Notes:
+--------------
+Please make sure you have the latest DirectX SDK runtime installed:
+http://www.microsoft.com/downloads/en/details.aspx?displaylang=en&FamilyID=3b170b25-abab-4bc3-ae91-50ceb6d8fa8d
+
+You will also need the VS2010 redist which can be downloaded from:
+http://www.microsoft.com/downloads/en/details.aspx?familyid=A7B7A05E-6DE6-4D3A-A423-37BF0912DB84&displaylang=en
+
+** Don't forget to start with the calibration pose! **
+
+To run the demo, simply run the Sinbad.exe from the bin directory (It comes precompiled in this package).
+
+Build Notes (for Win32):
+------------------------
+
+Requirements:
+	1) Microsoft Visual Studio 2010
+	2) Ogre SDK for Visual Studio 2010 (http://www.ogre3d.org/download/sdk)
+	3) NVidia CG (http://developer.nvidia.com/object/cg_download.html)
+	4) OpenNI (www.openni.org)
+	5) Sensor device modules for OpenNI (www.openni.org)
+	6) NITE modules for OpenNI (www.openni.org)
+	   
+Building Sinbad:
+	1) Create an environment variable called OGRE_HOME which points to the root of the Ogre SDK directory.
+	2) Use the supplied SinbadVS2010.sln file to compile the project.
+	3) Run Sinbad.exe from the bin directory. (or from bindbg if you've compiled in debug)
+
+Important note:
+To save space we did not include the debug Ogre DLLs in this package.
+If you want the project to work in debug mode you would need to:
+1) Copy the Data directory from the bin into the bindbg directory.
+2) Copy cg.dll from the bin into the bindbg directory.
+3) Copy all the dll files from the Ogre SDK (bin\debug) into the bindbg directory.
+   *** Do NOT copy over .cfg files from the ogre directory into the bindbg directory. Only copy the dll files!!! ***
